@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Brasilstyle.css">
-    <title>Brasil</title>
+    <title>Regiões</title>
     <style>
 
         #mapainfo{
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             flex-wrap: wrap;
+            width: 95vw;
         }
         #iframeregs{
-            height: 50vh;
+            height: 60vh;
+        }
+        #mapa{
+            width: 349px; height: 307px;
         }
     </style>
 </head>
@@ -28,14 +32,14 @@
     <h1>Regiões e suas características</h1>
 
     <div id="mapainfo">
-        <img src="maparesize.png" usemap="#image-map">
+        <img src="imgs/maparesize3.png" usemap="#image-map" id="mapa">
 
             <map name="image-map">
-                <area target="iframeregs" alt="" title="" href="regioes.html#sul" coords="240,504,366,362" shape="rect">
-                <area target="iframeregs" alt="" title="" href="regioes.html#centrooeste" coords="258,259,94" shape="circle">
-                <area target="iframeregs" alt="" title="" href="regioes.html#sudeste" coords="477,211,363,351" shape="rect">
-                <area target="iframeregs" alt="" title="" href="regioes.html#nordeste" coords="360,105,500,192" shape="rect">
-                <area target="iframeregs" alt="" title="" href="regioes.html#norte" coords="64,64,346,163" shape="rect">
+                <area target="iframeregs" alt="" title="" href="regioes.html#norte" coords="15,97,39,74,48,29,103,11,184,31,210,55,178,105,107,107,44,107" shape="poly">
+                <area target="iframeregs" alt="" title="" href="regioes.html#centrooeste" coords="86,116,194,129,200,102,210,130,205,172,154,215" shape="poly">
+                <area target="iframeregs" alt="" title="" href="regioes.html#sul" coords="163,231,192,201,203,205,214,221,195,237,193,263,165,291,144,276" shape="poly">
+                <area target="iframeregs" alt="" title="" href="regioes.html#sudeste" coords="195,195,214,184,222,132,276,117,288,130,267,148,263,198,244,217" shape="poly">
+                <area target="iframeregs" alt="" title="" href="regioes.html#nordeste" coords="223,54,265,69,305,94,289,115,253,107,221,125,207,85" shape="poly">
             </map>
 
         <iframe src="regioes.html" frameborder="0" name="iframeregs" id="iframeregs"></iframe>
