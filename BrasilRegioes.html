@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="Brasilstyle.css">
     <title>Brasil</title>
     <style>
-        #maparegs{
-            width: 50vw;
-        }
+
         #mapainfo{
             display: flex;
             justify-content: space-around;
@@ -30,12 +28,15 @@
     <h1>Regiões e suas características</h1>
 
     <div id="mapainfo">
-        <img src="Mapa.png" usemap="#image-map" id="maparegs">
+        <img src="maparesize.png" usemap="#image-map">
 
-        <map name="image-map">
-            <area target="iframeregs" alt="Norte" title="Norte" href="regioes.html#norte" coords="307,41,718,182,610,386,135,401,63,322,167,108" shape="poly">
-            <area target="iframeregs" alt="Sul" title="Sul" href="regioes.html#sul" coords="672,669,559,728,442,922,558,993,667,852,724,762" shape="poly">
-        </map>
+            <map name="image-map">
+                <area target="iframeregs" alt="" title="" href="regioes.html#sul" coords="240,504,366,362" shape="rect">
+                <area target="iframeregs" alt="" title="" href="regioes.html#centrooeste" coords="258,259,94" shape="circle">
+                <area target="iframeregs" alt="" title="" href="regioes.html#sudeste" coords="477,211,363,351" shape="rect">
+                <area target="iframeregs" alt="" title="" href="regioes.html#nordeste" coords="360,105,500,192" shape="rect">
+                <area target="iframeregs" alt="" title="" href="regioes.html#norte" coords="64,64,346,163" shape="rect">
+            </map>
 
         <iframe src="regioes.html" frameborder="0" name="iframeregs" id="iframeregs"></iframe>
     </div>
