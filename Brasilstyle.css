@@ -44,14 +44,14 @@ footer{
 }
 #bandeirahome{
     display: block;
-    width: 20vw;
+    width: 35vw;
     margin: 15px auto 10px auto;
 }
 
 .container{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     flex-wrap: wrap;
     padding: 5vw;
 }
@@ -68,3 +68,10 @@ footer{
     height: 65%;
     border-radius: 5px;
 }
+
+#sobrenos{
+    margin: 0 auto 200px;
+    width: 80vw;
+    line-height: 30px;
+    text-align: justify;
+}   

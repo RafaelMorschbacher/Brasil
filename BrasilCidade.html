@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Brasilstyle.css">
+    <title>Sua cidade</title>
+    <style>
+        body{text-align: center;}
+    </style>
+</head>
+<body>
+    <nav>
+        <p>Home</p>
+        <p>Mapa/Regiões</p>
+        <p>Sua cidade</p>
+    </nav>
+
+    <h1>Sua cidade</h1>
+    <h2>Qual é o nome da sua cidade?</h2>
+        <input type="text" name="cidade" id="cidade">
+
+    <h2>Quantos milhões de habitantes há na sua cidade?</h2>
+        <input type="number" name="pop" id="pop">
+
+    <h2>Qual é a área da sua cidade em km²?</h2>
+        <input type="number" name="area" id="area">
+
+    <input type="button" value="Info" onclick="cityinfo()">
+
+    <div id="res"></div>
+
+    <script src="JS/cidade.js"></script>
+    <footer>Este site foi feito por Rafael Morschbacher</footer>
+</body>
+</html>
