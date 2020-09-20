@@ -87,7 +87,7 @@ a{
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
     grid-template-areas: "a b"
                          "a c";
     column-gap: 5vw;
@@ -102,10 +102,32 @@ a{
     grid-area: c;
     font-size: 14px;
     text-align: justify;
+    line-height: 30px;
 }
 .ponto iframe{
     grid-area: b;
     width: 100%;
     height: 100%;
     border-radius: 5px;
+}
+input{
+    margin-bottom: 5px;
+}
+
+@media (max-width:800px){
+    .ponto{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .ponto img{
+        width: 285px;
+        height: 340px;
+        margin: auto;
+    }
+}
+@media (max-width:800px){
+    nav{
+        font-size: 15px;
+    }
 }
